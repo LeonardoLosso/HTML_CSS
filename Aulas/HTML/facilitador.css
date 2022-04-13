@@ -1,0 +1,10 @@
+body
+        {
+            background-color: rgba(0, 0, 0, 0.503);
+            color: aliceblue;
+            font: normal 12pt arial;
+        }
+        section
+        {
+            width: 510px;
+        }
