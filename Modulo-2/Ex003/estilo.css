@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+@font-face {
+    font-family:'metal';
+    src: url('../fontes/metal/Newton\ Howard\ Font.otf') format('opentype'), url('../fontes/metal/Newton\ Howard\ Font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*
+{
+    font-family: 'square peg', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+body
+{
+    background-color: rgba(0, 0, 0, 0.558);
+    color: aliceblue;
+}
+h1, h2
+{
+    font-family:'metal' , serif;
+    font-weight: normal;
+}
