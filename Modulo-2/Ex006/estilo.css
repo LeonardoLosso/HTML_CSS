@@ -1,0 +1,36 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.558);
+    color: aliceblue;
+}
+a
+{
+    color: violet;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+a:visited
+{
+    color: aqua;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: violet;
+}
+a:active
+{
+    color: yellow;
+}
+.especial::after
+{
+    content: ' ☜ ';
+    color: black;
+}
+.especial::before
+{
+    content: ' ☞ ';
+    color: black;
+}
