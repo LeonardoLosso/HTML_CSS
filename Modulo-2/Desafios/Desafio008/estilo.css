@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+body
+{
+    background-color: #83E1AD;
+}
+.folhas
+{
+    box-shadow: 0px 0px 5px 1px #063d1ec2;
+}
+header
+{
+    background-image: linear-gradient(0deg, #063D1E, #3DDC84 100%, #83E1AD);
+    text-shadow: 1px 1px 1px #063d1e88;
+}
+header > h1
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    
+}
+.cabecalho
+{
+    text-align: center;
+    color: white;
+    margin: 0% 10% 2% 10%;
+}
+nav
+{
+    margin-left: 1%;
+    padding: 0px 0px 11px 0px;
+}
+nav > a
+{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+nav > a:hover
+{
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 1px #063d1e96; 
+}
+main
+{
+    background-color: rgb(240, 255, 242);
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    padding: 5%;
+    text-align: center;
+
+    color: #2FA866;
+}
+#finalle
+{
+    background-color: rgb(240, 255, 242);
+    width: 70%;
+    padding: 5% 5% 1% 5%;
+    text-align: center;
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
+
+    color: #2FA866;
+
+    box-shadow: 0px 3px 5px 1px #063d1ec2;
+}
+#bola
+{
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 1px 0px 2px #063d1ec2;
+    padding: 2%;
+    background-color: #C5EBD6;
+}
+#bola > ul
+{
+    display: inline-block;
+    text-align: start;
+    margin-right: 10%;
+    
+}
+h3
+{
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 1px 0px 2px #063d1ec2;
+    background-color: #2FA866;
+    color: white;
+    padding: 5px;
+}
+#areadevideo
+{
+    background-color: #2FA866;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    padding: 2% 5%;
+    text-align: center;
+    box-shadow: 0px 3px 5px 1px #063d1ec2;
+    
+}
+
+h2
+{
+    font-size: 1em;
+    background-image: linear-gradient(to right, #C5EBD6 60%, white);
+    text-align: start;
+
+    text-indent: 1%;
+
+}
+footer
+{
+    margin-top: 20px;
+    background-color: #063D1E;
+    text-align: center;
+    color: white;
+}
+.texto
+{
+    text-align: justify;
+    text-indent: 30px;
+    color: black;
+    margin: 20px 0%;
+}
+.font_android
+{
+    font-family: 'android', sans-serif;
+}
+img
+{
+    width: 100%;
+}
+img#bugdroid
+{
+    width: 40%;
+}
+#video
+{
+    width: 100%;
+    box-shadow: 1px 1px 5px 1px #063d1e96; 
+}

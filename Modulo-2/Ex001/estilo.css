@@ -4,6 +4,6 @@
 }
 body
 {
-    background-image: linear-gradient(135deg, #46ff46, #ffff48, hsl(240, 100%, 67%), white);
+    background-image: linear-gradient(135deg, #46ff46, #ffff48, #5757ff, white);
     background-attachment: fixed;
 }
