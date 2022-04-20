@@ -1,0 +1,33 @@
+body
+{
+    background-color: rgba(0, 0, 0, 0.558);
+    color: aliceblue;
+}
+
+#container
+{
+    background-image: url('../midia/Imagens/fundos/target001.png');
+    background-size: 100% 100%;
+    background-color: purple;
+
+    height: 90vh;
+    padding: 10px;
+
+    position: relative;
+}
+#conteudo
+{
+    background-image: url('../midia/Imagens/fundos/target001.png');
+    background-size: 100% 100%;
+    background-color: yellow;
+    
+    height: 40%;
+    width: 40%;
+    
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,31 @@
+body
+{
+
+}
+.bloco
+{
+    background-image: url('../midia/Imagens/fundos/wallpaper003.jpg');
+
+    height: 160px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    margin: 10px;
+}
+#q1
+{
+    background-position: left top;
+}
+#q2
+{
+    background-position: left center;
+}
+#q3
+{
+    background-position: center;
+}
+#q4
+{
+    background-position: right bottom;
+}

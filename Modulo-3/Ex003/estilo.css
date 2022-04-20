@@ -1,0 +1,11 @@
+body
+{
+    height: 100vh;
+
+    border: 1px dashed black;
+
+    background-image: url('https://klauslaube.com.br/static/c36ea8baf6e17411f4802dad8eb327c7/css3-logo.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: 30% 60vh;
+}

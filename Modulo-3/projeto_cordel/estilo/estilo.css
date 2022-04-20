@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body
+{   
+    min-height: 100%;
+    background-color: #f5f5dc;
+}
+
+header
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1
+{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header > p
+{
+    padding-bottom: 50px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+section
+{
+    padding: 10vh 0vh;
+
+    line-height: 2em;
+    padding-left: 30px;
+}
+.imagem
+{
+    background-color: black;
+    color: white;
+}
+.imagem > p
+{
+    background-color: rgba(0, 0, 0, 0.227);
+    max-width: 250px;
+
+}
+#flor
+{
+    background-image: url('cordel/background001.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#folhas
+{
+    background-image: url('cordel/background002.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}

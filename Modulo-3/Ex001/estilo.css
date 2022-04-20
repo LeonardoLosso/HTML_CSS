@@ -1,5 +1,30 @@
 body
 {
-    background-color: rgba(0, 0, 0, 0.558);
-    color: aliceblue;
+    background-image: url('../midia/Imagens/fundos/wallpaper001.jpg');
+    margin: 1%;
+}
+.quadrado
+{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 300px;
+    height: 300px;
+}
+#q1
+{
+    background-color: skyblue;
+}
+#q2
+{
+    background-image: linear-gradient(to bottom, yellow, red);
+}
+#q3
+{
+    background-image: url('../midia/Imagens/fundos/pattern001.png');
+}
+#q4
+{
+    background-image: url('../midia/Imagens/fundos/wallpaper002.jpg' );
 }
