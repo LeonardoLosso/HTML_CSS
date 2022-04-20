@@ -62,8 +62,8 @@ header > p
 
     max-width: 500px;
     margin: auto;
-    padding: 0px 10px;
-    margin-bottom: 30px;
+    padding: 0px 10px 30px 10px;
+    
 }
 
 nav
