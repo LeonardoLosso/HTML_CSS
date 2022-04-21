@@ -2,5 +2,48 @@ body
 {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(0, 0, 0, 0.558);
+    color: black
+}
+h1
+{
+    padding-left: 100px;
+}
+table
+{
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+}
+caption
+{
     color: aliceblue;
+    font-size: 1.4em;
+}
+thead, tfoot
+{
+    background-color: lightgray;
+}
+thead > tr > th
+{
+    position: sticky;
+    background-color: lightgray;
+    top: -1px;
+}
+tbody > tr:nth-child(even)
+{
+    background-color: black;
+}
+tbody > tr:nth-child(odd)
+{
+    background-color: lightcyan;
+    font-weight: bold;
+}
+td, th
+{
+    border: 2px solid white;
+    padding: 10px;
+}
+.numero
+{
+    text-align: right;
 }
